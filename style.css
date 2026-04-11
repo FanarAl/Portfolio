@@ -1,0 +1,147 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: "Times New Roman", Times, serif;
+    background: #f6f7fb;
+    color: #2b2b2b;
+    line-height: 1.6;
+}
+
+/* Navbar (soft glass) */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 50px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid #eaeaea;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #3a3a3a;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #6c72ea; /* soft tech blue */
+}
+
+.logo {
+    font-weight: bold;
+    color: #7c83fd;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 80px 20px 40px;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #7c83fd;
+}
+
+header p {
+    color: #575555;
+}
+
+/* Sections */
+section {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h2 {
+    color: #7c83fd;
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+/* Cards */
+.card {
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 14px;
+    border: 1px solid #ececec;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.04);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(124, 131, 253, 0.15);
+}
+
+/* Skills */
+.skills {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.skills h3 {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.skills span {
+    display: inline-block;
+    background: linear-gradient(135deg, #fce7f3, #e0f2fe);
+    color: #333;
+    padding: 8px 14px;
+    margin: 5px;
+    border-radius: 25px;
+    font-size: 14px;
+    transition: 0.3s;
+    border: 1px solid #eee;
+}
+
+.skills span:hover {
+    transform: scale(1.05);
+}
+
+/* Links */
+a {
+    color: #7c83fd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #ffffff;
+    border-top: 1px solid #eee;
+    color: #777;
+}
+section {
+    scroll-margin-top: 90px;
+}
+.card h3 a {
+    color: #3b2f2f;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.card h3 a:hover {
+    color: #7c83fd;
+}
