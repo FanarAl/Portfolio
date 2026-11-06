@@ -3593,14 +3593,16 @@ background: linear-gradient(
 }
            
            .nav-links {
-               order: 3;
-               width: 100%;
-               overflow-x: auto;
-               justify-content: flex-start;
-               gap: 4px;
-               padding: 5px;
-               scrollbar-width: none;
-           }
+    order: 3;
+    width: 100%;
+    transform: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    padding: 5px;
+    overflow-x: visible;
+}
            
            .nav-links::-webkit-scrollbar {
                display: none;
