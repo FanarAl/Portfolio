@@ -3584,13 +3584,13 @@ background: linear-gradient(
      
 
           .navbar {
-               flex-wrap: wrap;
-               top: 8px;
-               width: calc(100% - 20px);
-               margin-top: 8px;
-               gap: 10px;
-               padding: 12px;
-           }
+    flex-wrap: wrap;
+    top: 0;
+    width: 100%;
+    margin-top: 0;
+    gap: 10px;
+    padding: 12px;
+}
            
            .nav-links {
                order: 3;
