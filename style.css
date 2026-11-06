@@ -4025,3 +4025,18 @@ background: linear-gradient(
      display: inline-block;
      margin-left: 60px;
    }
+@media (max-width: 768px) {
+     .navbar {
+         padding: 15px 5%;
+         flex-wrap: wrap;
+         gap: 15px;
+     }
+ 
+     .nav-links {
+         transform: none;
+         gap: 15px;
+         flex-wrap: wrap;
+         justify-content: center;
+         width: 100%;
+     }
+ }
