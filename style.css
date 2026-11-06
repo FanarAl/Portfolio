@@ -59,8 +59,7 @@
      align-items: center;
      justify-content: space-between;
      padding: 20px 7%;
-     background: rgba(16, 28, 44, 0.97);
- }
+background: red; }
  
  .logo,
  .footer-logo {
